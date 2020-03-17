@@ -3,9 +3,14 @@
   "username": "c0d3n1nj4",
   "name": "Jobel Clarabal",
   "userimg": "https://avatars3.githubusercontent.com/u/496985?v=4",
-  "sort": "created",
-  "order": "asc",
-  "includeFork": true,
-  "theme": "dark.css"
+  "sort": "star",
+  "order": "desc",
+  "includeFork": false,
+  "theme": "dark.css",
+  "types": [
+   "all"
+  ],
+  "twitter": "c0d3n1nj4",
+  "linkedin": "jclarabal"
  }
 ]
