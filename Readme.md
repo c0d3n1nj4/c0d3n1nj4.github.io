@@ -1,3 +1,1 @@
-Resource:
-
-https://github.com/imfunniee/gitfolio
+Resource: https://github.com/imfunniee/gitfolio
