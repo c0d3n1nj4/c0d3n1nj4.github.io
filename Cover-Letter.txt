@@ -1,0 +1,86 @@
+Hello,
+
+Good Day!
+
+Skype: jclarabal
+Site: http://jobelclarabal.com
+
+I am a Web Master for more than 7 years with some experiences as a Project Manager. As a Project Manager, I lead the planning and implementation of projects. I work closely with the fulfillment team to make sure projects are in schedule and in the right direction to achieve quality products. With my leadership, organizational, analytical and technical skills, I’m sure all projects will be handled efficiently.
+
+As a Web Master, I deal both Front-end and Back-end. I don't do designs but I work closely with the designers and give input (UX/UI) to make sure we are on the same page always. I do the coding of the design and setup the site on the server. Communication is the key for a successful launch of the website and that starts from communicating with the client. 
+
+Testing plays a very important role also including mobile responsiveness before deploying the final project live.
+
+On top of that, I’ve also work as a Call Center Representative with SSI (formerly Western Wats/Opinionology) for more than 2 years so communication or language barrier is not a hindrance.
+
+To wrap it all up these are my skills:
+
+Front-end:
+ Javascript (9/10) 
+ JQuery (9/10) 
+ CSS3 (9/10) 
+ Sass (8/10) 
+ Bootstrap (9/10)
+
+Back-end:
+ PHP (9/10) 
+ MySQL (8/10)
+
+Scripts:
+ Google Apps Script/Macro (8/10)
+
+CMS:
+ Wordpress (9/10)
+ Shopify (9/10)
+
+MVC Frameworks:
+ Laravel (9/10) 
+ CodeIgniter (8/10) 
+ CakePHP (8/10)
+ Zend (8/10)
+
+APIs:
+ Twitter (8/10)
+ Facebook (8/10)
+ Instagram (8/10)
+ Twilio (7/10)
+ LeadPages (7/10)
+ GetResponse (8/10)
+ ActiveCampaign (8/10)
+ AWeber (8/10)
+ Klaviyo (7/10)
+ MailChimp (7/10)
+ Refersion (8/10)
+ Clickfunnels (8/10)
+ Clickmeter (7/10)
+ Pipedream (7/10)
+ Integromat (7/10)
+
+SVN: 
+ Git (7/10)
+ BitBucket (7/10)
+ Sourcetree (7/10)
+
+Project Management Tools:
+ Asana (8/10)
+ Trello (8/10)
+
+Team Collaboration Tools:
+ Slack (9/10) 
+
+Good knowledge of (just got no live projects on these tech):
+ ReactJS (6/10) 
+ VueJS (6/10)
+ ExpressJS (6/10) 
+ GoLang (6/10)
+ Python (6/10)
+ RoR (6/10)
+
+I really love what I'm doing and learning new technologies is my everyday routine. 
+
+If I missed something I will answer them during the interview.
+
+By the way, I can start right away.
+
+
+Thank you!

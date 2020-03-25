@@ -272,6 +272,7 @@ body{
 #about {
     font-size:18px;
     font-family: 'Questrial', sans-serif;
+		margin-bottom: 0 !important;
 }
 
 #about span {
@@ -292,6 +293,9 @@ body{
     margin:2vh 0px;
     padding:4vh 0px !important;
 }
+
+#resume { margin-top: 0 !important; }
+#resume a { color: #5cb85c; }
 
 .projects {
     columns:2;
@@ -315,6 +319,20 @@ body{
     border:1px solid rgb(0, 0, 0, 0);
     box-shadow:0px 15px 35px rgb(0, 0, 0, 0.06);
     transform:scale(1.03);
+}
+.projects .thumb-post {
+    height: 100%;
+    max-height: 330px;
+		overflow: hidden;
+    display: block;
+    position: relative;
+}
+.projects .thumb-post img {
+    width: 100%;
+    height: auto;
+}
+.projects .thumb-post a {
+	color: #337ab7;
 }
 
 .section_title {
@@ -408,7 +426,7 @@ body{
     }
     #display {
         width:90vw;
-        padding:0 5vw;
+        padding:4vh 5vw;
         height:auto;
         display:inline-block;
         padding-left:5vw;
@@ -419,8 +437,7 @@ body{
         margin:0px auto !important;
     }
     #work {
-        margin:0px !important;
-				padding: 0 !important;
+        margin:0px;
     }
     .projects {
         columns:1;
@@ -473,9 +490,9 @@ body{
   --bg-color: rgb(10, 10, 10);
   --text-color: #fff;
   --blog-gray-color: rgb(180, 180, 180);
-  --background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgb(10, 10, 10, 1)), url("https%3A%2F%2Fimages.unsplash.com%2Fphoto-1547954575-855750c57bd3%3Fixlib%3Drb-1.2.1%26ixid%3DeyJhcHBfaWQiOjEyMDd9%26auto%3Dformat%26fit%3Dcrop%26w%3D1350%26q%3D80");
+  --background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgb(10, 10, 10, 1)), url("https://i.ytimg.com/vi/AwkNFjr-C-I/maxresdefault.jpg");
   --background-background: linear-gradient(0deg, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.6)),
-    url("https%3A%2F%2Fimages.unsplash.com%2Fphoto-1547954575-855750c57bd3%3Fixlib%3Drb-1.2.1%26ixid%3DeyJhcHBfaWQiOjEyMDd9%26auto%3Dformat%26fit%3Dcrop%26w%3D1350%26q%3D80") center center fixed;
+    url("https://i.ytimg.com/vi/AwkNFjr-C-I/maxresdefault.jpg") center center fixed;
   --height: 50vh;
 }
 #display h1 {
@@ -497,6 +514,6 @@ body{
 @media (max-width: 800px) {
   :root {
     --background-image: linear-gradient(0deg, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0)),
-    url("https%3A%2F%2Fimages.unsplash.com%2Fphoto-1547954575-855750c57bd3%3Fixlib%3Drb-1.2.1%26ixid%3DeyJhcHBfaWQiOjEyMDd9%26auto%3Dformat%26fit%3Dcrop%26w%3D1350%26q%3D80") !important;
+    url("https://i.ytimg.com/vi/AwkNFjr-C-I/maxresdefault.jpg") !important;
   }
 }
