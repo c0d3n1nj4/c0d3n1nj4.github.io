@@ -491,13 +491,24 @@
 		s0.parentNode.insertBefore(s1,s0);
 		})();
 		<!--End of Tawk.to Script-->			
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162639387-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-162639387-1');
+		</script>
+
 			
 		/*	
     $.getJSON("blog.json", function(blog){
         if(blog.length == 0){
             return document.getElementById("blog_section").style.display = "none";
         }
-        for(var i = 0; i < blog.length; i++){
+        for(var i = 0; i &lt; blog.length; i++){
             $("#blogs").append(`
             <a href="./blog/${blog[i].url_title}/" target="_blank">
                 <section>
@@ -514,6 +525,6 @@
         }
     });
 		*/
-    </script>
+    
 
 </body></html>
