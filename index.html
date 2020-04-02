@@ -470,61 +470,60 @@
         </div>
     </div>
     <script type="text/javascript">
-    setTimeout(function(){
-        document.getElementById("loading").classList.add("animated");
-        document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function(){
-        document.getElementById("loading").classList.remove("animated");
-        document.getElementById("loading").classList.remove("fadeOut");
-        document.getElementById("loading").style.display = "none";
-        },800);
-    },1500);
-			
-		<!--Start of Tawk.to Script-->
-		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-		(function(){
-		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-		s1.async=true;
-		s1.src='https://embed.tawk.to/5e7c40d469e9320caabd2027/default';
-		s1.charset='UTF-8';
-		s1.setAttribute('crossorigin','*');
-		s0.parentNode.insertBefore(s1,s0);
-		})();
-		<!--End of Tawk.to Script-->			
+	    setTimeout(function(){
+	        document.getElementById("loading").classList.add("animated");
+	        document.getElementById("loading").classList.add("fadeOut");
+	        setTimeout(function(){
+	        document.getElementById("loading").classList.remove("animated");
+	        document.getElementById("loading").classList.remove("fadeOut");
+	        document.getElementById("loading").style.display = "none";
+	        },800);
+	    },1500);
+				
+			// Start of Tawk.to Script 
+			var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+			(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/5e7c40d469e9320caabd2027/default';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+			})();
+			// End of Tawk.to Script
+				
+			/*	
+	    $.getJSON("blog.json", function(blog){
+	        if(blog.length == 0){
+	            return document.getElementById("blog_section").style.display = "none";
+	        }
+	        for(var i = 0; i < blog.length; i++){
+	            $("#blogs").append(`
+	            <a href="./blog/${blog[i].url_title}/" target="_blank">
+	                <section>
+	                    <img src="${blog[i].top_image}">
+	                    <div class="blog_container">
+	                        <div class="section_title">${blog[i].title}</div>
+	                        <div class="about_section">
+	                            ${blog[i].sub_title}
+	                        </div>
+	                    </div>
+	                </section>
+	            </a>
+	            `);
+	        }
+	    });
+			*/
+    </script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162639387-1"></script>
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-162639387-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-162639387-1');
-		</script>
-
-			
-		/*	
-    $.getJSON("blog.json", function(blog){
-        if(blog.length == 0){
-            return document.getElementById("blog_section").style.display = "none";
-        }
-        for(var i = 0; i &lt; blog.length; i++){
-            $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
-                <section>
-                    <img src="${blog[i].top_image}">
-                    <div class="blog_container">
-                        <div class="section_title">${blog[i].title}</div>
-                        <div class="about_section">
-                            ${blog[i].sub_title}
-                        </div>
-                    </div>
-                </section>
-            </a>
-            `);
-        }
-    });
-		*/
-    
+		</script>    
 
 </body></html>
